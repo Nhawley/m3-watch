@@ -54,7 +54,7 @@ function getSymbol() {
     // url: "http://dev.markitondemand.com/MODApis/Api/v2/Lookup/json?input=" + stockInfo.input, // why no work???
 
     type: 'GET',
-    dataType : 'jsonp',
+    dataType : 'json',
     crossdomain:true,
     success: done
   })
